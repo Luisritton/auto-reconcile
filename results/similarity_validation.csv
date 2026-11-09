@@ -1,0 +1,520 @@
+dataset,transaction_id,invoice_id,match_stage,bank_description,invoice_customer,similarity,matcher_score
+original sample,TXN-0001,INV-0005,exact,PIX Acme Ltda,Acme Ltda,1.0,1.0
+original sample,TXN-0003,INV-0137,exact,PIX Delta Tech.,Delta Tech,1.0,1.0
+original sample,TXN-0004,INV-0039,exact,PIX Acm eLtda,Acme Ltda,0.8889,1.0
+original sample,TXN-0006,INV-0047,fuzzy,PIX Zeta Consultoria,Zeta Consultoria,1.0,1.0
+original sample,TXN-0007,INV-0019,exact,PIX Acme tLda.,Acme Ltda,0.8889,1.0
+original sample,TXN-0008,INV-0092,fuzzy,PIX Epsilon Logsítica,Epsilon Logística,0.9412,0.9412
+original sample,TXN-0011,INV-0106,exact,PIX ACME LTDA,Acme Ltda,1.0,1.0
+original sample,TXN-0012,INV-0097,exact,PIX Epsilon Log.,Epsilon Logística,0.7857,1.0
+original sample,TXN-0013,INV-0010,fuzzy,PIX BETA COM. LIMITADA,Beta Comercio Limitada,0.8718,0.8718
+original sample,TXN-0014,INV-0172,exact,PIX Delta Tech,Delta Tech,1.0,1.0
+original sample,TXN-0016,INV-0057,exact,PIX ZETA CONSULTORIA,Zeta Consultoria,1.0,1.0
+original sample,TXN-0017,INV-0119,fuzzy,PIX Acme Ltda,Acme Ltda,1.0,1.0
+original sample,TXN-0018,INV-0176,fuzzy,PIX ACME  LTDA,Acme Ltda,1.0,1.0
+original sample,TXN-0021,INV-0021,exact,PIX delta tech,Delta Tech,1.0,1.0
+original sample,TXN-0022,INV-0013,exact,PIX Gama Serviços.,Gama Serviços,1.0,1.0
+original sample,TXN-0023,INV-0029,fuzzy,PIX BETA COMERCIO LIMITADA,Beta Comercio Limitada,1.0,1.0
+original sample,TXN-0024,INV-0077,fuzzy,PIX ZETA CONSULTORIA,Zeta Consultoria,1.0,1.0
+original sample,TXN-0026,INV-0153,fuzzy,PIX Zeta Consultoria.,Zeta Consultoria,1.0,1.0
+original sample,TXN-0027,INV-0094,fuzzy,PIX Epsilon  Logistica,Epsilon Logística,1.0,1.0
+original sample,TXN-0028,INV-0044,exact,PIX Ztea Consultoria,Zeta Consultoria,0.9375,1.0
+original sample,TXN-0029,INV-0155,exact,PIX ZETA COSNULT.,Zeta Consultoria,0.7857,1.0
+original sample,TXN-0030,INV-0104,exact,PIX zeta  consultoria,Zeta Consultoria,1.0,1.0
+original sample,TXN-0031,INV-0121,exact,PIX ZETA CONSULT.,Zeta Consultoria,0.8571,1.0
+original sample,TXN-0032,INV-0087,fuzzy,PIX Beta Comercio Ltda..,Beta Comercio Limitada,0.9,0.9
+original sample,TXN-0034,INV-0144,fuzzy,PIX gama serviços,Gama Serviços,1.0,1.0
+original sample,TXN-0035,INV-0070,fuzzy,PIX GAMA  SERVIOCS,Gama Serviços,0.9231,0.9231
+original sample,TXN-0036,INV-0180,fuzzy,PIX Delta Tech,Delta Tech,1.0,1.0
+original sample,TXN-0037,INV-0193,exact,PIX zeta c onsultoria,Zeta Consultoria,0.9697,1.0
+original sample,TXN-0038,INV-0192,exact,PIX BETA COMERCIO LIMITADA,Beta Comercio Limitada,1.0,1.0
+original sample,TXN-0039,INV-0100,fuzzy,PIX EPSILON LOG.,Epsilon Logística,0.7857,0.7857
+original sample,TXN-0040,INV-0122,exact,PIX Zeta Consultoria.,Zeta Consultoria,1.0,1.0
+original sample,TXN-0041,INV-0058,fuzzy,PIX epsilon log.,Epsilon Logística,0.7857,0.7857
+original sample,TXN-0042,INV-0114,fuzzy,PIX beta  com.  ltda.,Beta Comercio Limitada,0.7429,0.7429
+original sample,TXN-0043,INV-0040,fuzzy,PIX zeta consutloria,Zeta Consultoria,0.9375,0.9375
+original sample,TXN-0044,INV-0059,fuzzy,PIX ZETA  CONSULTORIA,Zeta Consultoria,1.0,1.0
+original sample,TXN-0045,INV-0080,exact,PIX EPSILO N LOG..,Epsilon Logística,0.7586,1.0
+original sample,TXN-0046,INV-0091,fuzzy,PIX Beta Comercio Limitada,Beta Comercio Limitada,1.0,1.0
+original sample,TXN-0047,INV-0072,exact,PIX Epsilon Log.,Epsilon Logística,0.7857,1.0
+original sample,TXN-0048,INV-0166,fuzzy,PIX zeta consult.,Zeta Consultoria,0.8571,0.8571
+original sample,TXN-0049,INV-0124,fuzzy,PIX Acme Ltda.,Acme Ltda,1.0,1.0
+original sample,TXN-0050,INV-0165,exact,PIX Epsilon Log.,Epsilon Logística,0.7857,1.0
+original sample,TXN-0051,INV-0160,fuzzy,PIX Epsilon  Log.,Epsilon Logística,0.7857,0.7857
+original sample,TXN-0052,INV-0051,fuzzy,PIX BETA COM. LIMITADA,Beta Comercio Limitada,0.8718,0.8718
+original sample,TXN-0053,INV-0028,exact,PIX ZETA CONSULT.,Zeta Consultoria,0.8571,1.0
+original sample,TXN-0054,INV-0006,exact,PIX EPSILON LOG.,Epsilon Logística,0.7857,1.0
+original sample,TXN-0056,INV-0031,fuzzy,PIX Epsilon Logistica,Epsilon Logística,1.0,1.0
+original sample,TXN-0057,INV-0139,exact,PIX Beta  Comercio  Limitada,Beta Comercio Limitada,1.0,1.0
+original sample,TXN-0058,INV-0098,exact,PIX DELTA TECH,Delta Tech,1.0,1.0
+original sample,TXN-0059,INV-0169,exact,PIX ZETA CONSULTORIA.,Zeta Consultoria,1.0,1.0
+original sample,TXN-0060,INV-0071,exact,PIX GAMA  SERV.,Gama Serviços,0.8182,1.0
+original sample,TXN-0061,INV-0171,exact,PIX DELTA TECH,Delta Tech,1.0,1.0
+original sample,TXN-0063,INV-0052,fuzzy,PIX EPSILON  LOGÍSTICA,Epsilon Logística,1.0,1.0
+original sample,TXN-0064,INV-0187,exact,PIX Zeta Consult.,Zeta Consultoria,0.8571,1.0
+original sample,TXN-0065,INV-0082,exact,PIX ACME LTDA.,Acme Ltda,1.0,1.0
+original sample,TXN-0066,INV-0132,fuzzy,PIX Beta  Com.  Limitada,Beta Comercio Limitada,0.8718,0.8718
+original sample,TXN-0068,INV-0175,fuzzy,PIX Beta Cmo. Ltda.,Beta Comercio Limitada,0.7429,0.7429
+original sample,TXN-0069,INV-0066,fuzzy,PIX acme  ltda.,Acme Ltda,1.0,1.0
+original sample,TXN-0070,INV-0027,exact,PIX ZETA CONSULT..,Zeta Consultoria,0.8571,1.0
+original sample,TXN-0071,INV-0048,exact,PIX epsilon logistica,Epsilon Logística,1.0,1.0
+original sample,TXN-0072,INV-0140,fuzzy,PIX Delta  Tech,Delta Tech,1.0,1.0
+original sample,TXN-0073,INV-0116,exact,PIX Gama Serv..,Gama Serviços,0.8182,1.0
+original sample,TXN-0074,INV-0120,exact,PIX ACME LTDA.,Acme Ltda,1.0,1.0
+original sample,TXN-0075,INV-0190,exact,PIX BETA COM. LIIMTADA,Beta Comercio Limitada,0.8205,1.0
+original sample,TXN-0076,INV-0020,exact,PIX Acme Ltda.,Acme Ltda,1.0,1.0
+original sample,TXN-0077,INV-0026,fuzzy,PIX BETA COM. LTDA.,Beta Comercio Limitada,0.7429,0.7429
+original sample,TXN-0078,INV-0145,fuzzy,PIX ACME  LDTA.,Acme Ltda,0.8889,0.8889
+original sample,TXN-0079,INV-0056,fuzzy,PIX Epislon Log.,Epsilon Logística,0.7143,0.7143
+original sample,TXN-0082,INV-0162,exact,PIX GAMA SERVICOS,Gama Serviços,1.0,1.0
+original sample,TXN-0084,INV-0177,fuzzy,PIX BETA  COMERCIO  LIMITADA,Beta Comercio Limitada,1.0,1.0
+original sample,TXN-0085,INV-0189,fuzzy,PIX Delat Tech.,Delta Tech,0.9,0.9
+original sample,TXN-0086,INV-0108,fuzzy,PIX EPSILON  LOGISTICA,Epsilon Logística,1.0,1.0
+original sample,TXN-0087,INV-0063,exact,PIX Delta Tech,Delta Tech,1.0,1.0
+original sample,TXN-0088,INV-0102,exact,PIX GAMA SERVICOS,Gama Serviços,1.0,1.0
+original sample,TXN-0089,INV-0170,fuzzy,PIX Beta  Comercio  Ltad.,Beta Comercio Limitada,0.9,0.9
+original sample,TXN-0091,INV-0147,exact,PIX deltat ech,Delta Tech,0.9,1.0
+original sample,TXN-0092,INV-0034,fuzzy,PIX BETA  COMERCI O LTDA.,Beta Comercio Limitada,0.878,0.878
+original sample,TXN-0093,INV-0085,fuzzy,PIX Beta  Comercio  Ltda.,Beta Comercio Limitada,0.9,0.9
+original sample,TXN-0094,INV-0157,exact,PIX Delta Tech,Delta Tech,1.0,1.0
+original sample,TXN-0096,INV-0068,fuzzy,PIX Acme Ltda.,Acme Ltda,1.0,1.0
+original sample,TXN-0097,INV-0002,fuzzy,PIX Beta  Com.  Ltda.,Beta Comercio Limitada,0.7429,0.7429
+original sample,TXN-0098,INV-0117,exact,PIX BETA COMERCIO LTDA.,Beta Comercio Limitada,0.9,1.0
+original sample,TXN-0100,INV-0011,exact,PIX Gama Serv.,Gama Serviços,0.8182,1.0
+original sample,TXN-0101,INV-0109,exact,PIX Acme  Ltda,Acme Ltda,1.0,1.0
+original sample,TXN-0102,INV-0199,exact,PIX GAMA  SERVIÇOS,Gama Serviços,1.0,1.0
+original sample,TXN-0103,INV-0118,fuzzy,PIX Epislon  Log..,Epsilon Logística,0.7143,0.7143
+original sample,TXN-0104,INV-0018,exact,PIX epsilon logística,Epsilon Logística,1.0,1.0
+original sample,TXN-0105,INV-0055,exact,PIX Gama Serv..,Gama Serviços,0.8182,1.0
+original sample,TXN-0107,INV-0045,fuzzy,PIX Zeta Consultoria,Zeta Consultoria,1.0,1.0
+original sample,TXN-0108,INV-0030,fuzzy,PIX Delta Tech,Delta Tech,1.0,1.0
+original sample,TXN-0109,INV-0088,exact,PIX Gama Serv.,Gama Serviços,0.8182,1.0
+original sample,TXN-0110,INV-0023,fuzzy,PIX BETA  COM. L IMITADA.,Beta Comercio Limitada,0.85,0.85
+original sample,TXN-0112,INV-0168,fuzzy,PIX acme ltda,Acme Ltda,1.0,1.0
+original sample,TXN-0113,INV-0191,fuzzy,PIX Epsilon Log..,Epsilon Logística,0.7857,0.7857
+original sample,TXN-0114,INV-0012,fuzzy,PIX ACME LTDA,Acme Ltda,1.0,1.0
+original sample,TXN-0115,INV-0110,fuzzy,PIX Gama  Servicos.,Gama Serviços,1.0,1.0
+original sample,TXN-0117,INV-0161,exact,PIX Epsilon Logística,Epsilon Logística,1.0,1.0
+original sample,TXN-0118,INV-0079,fuzzy,PIX acme  ltda,Acme Ltda,1.0,1.0
+original sample,TXN-0119,INV-0032,fuzzy,PIX Beta Com. Limitada,Beta Comercio Limitada,0.8718,0.8718
+original sample,TXN-0120,INV-0200,exact,PIX Epsilon Logistica,Epsilon Logística,1.0,1.0
+original sample,TXN-0121,INV-0103,fuzzy,PIX beta com. limitada.,Beta Comercio Limitada,0.8718,0.8718
+original sample,TXN-0122,INV-0150,exact,PIX ACME LTDA,Acme Ltda,1.0,1.0
+original sample,TXN-0124,INV-0126,fuzzy,PIX EPSILON LOGISTICA,Epsilon Logística,1.0,1.0
+original sample,TXN-0126,INV-0194,fuzzy,PIX delta tech,Delta Tech,1.0,1.0
+original sample,TXN-0127,INV-0131,fuzzy,PIX Epsilon Logistica,Epsilon Logística,1.0,1.0
+original sample,TXN-0128,INV-0183,exact,PIX EPSILON LOG.,Epsilon Logística,0.7857,1.0
+original sample,TXN-0129,INV-0009,exact,PIX EPSILON  LOGSÍTICA,Epsilon Logística,0.9412,1.0
+original sample,TXN-0130,INV-0033,fuzzy,PIX Zeta Consultoria.,Zeta Consultoria,1.0,1.0
+original sample,TXN-0131,INV-0105,exact,PIX Gama  Sevr.,Gama Serviços,0.7273,1.0
+original sample,TXN-0132,INV-0138,exact,PIX GamaS ervicos.,Gama Serviços,0.9231,1.0
+original sample,TXN-0133,INV-0089,exact,PIX gama serv..,Gama Serviços,0.8182,1.0
+original sample,TXN-0134,INV-0195,exact,PIX DELTA TECH,Delta Tech,1.0,1.0
+original sample,TXN-0135,INV-0042,exact,PIX Epsilon  Log.,Epsilon Logística,0.7857,1.0
+original sample,TXN-0136,INV-0164,exact,PIX Delta  Tech,Delta Tech,1.0,1.0
+original sample,TXN-0137,INV-0186,exact,PIX delta  tech,Delta Tech,1.0,1.0
+original sample,TXN-0138,INV-0181,fuzzy,PIX Zeta  Consultoria,Zeta Consultoria,1.0,1.0
+original sample,TXN-0140,INV-0016,fuzzy,PIX ACME  LTDA.,Acme Ltda,1.0,1.0
+original sample,TXN-0141,INV-0081,fuzzy,PIX Beta Com. Limitdaa.,Beta Comercio Limitada,0.8205,0.8205
+original sample,TXN-0143,INV-0049,exact,PIX ACME  LTDA,Acme Ltda,1.0,1.0
+original sample,TXN-0144,INV-0156,exact,PIX GAMA SERVIÇOS,Gama Serviços,1.0,1.0
+original sample,TXN-0145,INV-0142,exact,PIX Delta  Tech,Delta Tech,1.0,1.0
+original sample,TXN-0146,INV-0074,fuzzy,PIX Delta Tech,Delta Tech,1.0,1.0
+original sample,TXN-0147,INV-0196,fuzzy,PIX delta  tceh.,Delta Tech,0.9,0.9
+original sample,TXN-0148,INV-0188,exact,PIX Delta Tech.,Delta Tech,1.0,1.0
+original sample,TXN-0149,INV-0076,fuzzy,PIX Delta Tech,Delta Tech,1.0,1.0
+original sample,TXN-0150,INV-0053,exact,PIX ACME  LDTA,Acme Ltda,0.8889,1.0
+original sample,TXN-0151,INV-0095,exact,PIX BETA COM. LIMITADA,Beta Comercio Limitada,0.8718,1.0
+original sample,TXN-0153,INV-0184,fuzzy,PIX DELTA TECH,Delta Tech,1.0,1.0
+original sample,TXN-0155,INV-0151,exact,PIX zeta cnosult.,Zeta Consultoria,0.7857,1.0
+original sample,TXN-0156,INV-0084,exact,PIX ACM ELTDA.,Acme Ltda,0.8889,1.0
+original sample,TXN-0157,INV-0185,exact,PIX Delta  Tech.,Delta Tech,1.0,1.0
+original sample,TXN-0158,INV-0060,exact,PIX Beta Comercio Ltda..,Beta Comercio Limitada,0.9,1.0
+original sample,TXN-0159,INV-0054,fuzzy,PIX Acme  Ltda.,Acme Ltda,1.0,1.0
+original sample,TXN-0160,INV-0035,exact,PIX Epsilon  Log.,Epsilon Logística,0.7857,1.0
+original sample,TXN-0164,INV-0015,fuzzy,PIX EPSILON LOGISTICA,Epsilon Logística,1.0,1.0
+original sample,TXN-0165,INV-0113,fuzzy,PIX Gama Serv.,Gama Serviços,0.8182,0.8182
+original sample,TXN-0166,INV-0073,exact,PIX Epsilon  Log.,Epsilon Logística,0.7857,1.0
+original sample,TXN-0167,INV-0149,exact,PIX BETA COMERCIO LIMITADA.,Beta Comercio Limitada,1.0,1.0
+original sample,TXN-0168,INV-0198,exact,PIX delta etch,Delta Tech,0.9,1.0
+original sample,TXN-0169,INV-0036,exact,PIX DELTA TECH,Delta Tech,1.0,1.0
+original sample,TXN-0170,INV-0067,exact,PIX EPSILON LGO.,Epsilon Logística,0.7143,1.0
+original sample,TXN-0171,INV-0197,exact,PIX zeta consultoria.,Zeta Consultoria,1.0,1.0
+original sample,TXN-0173,INV-0099,fuzzy,PIX beta com.l tda.,Beta Comercio Limitada,0.6857,0.6857
+original sample,TXN-0175,INV-0004,fuzzy,PIX ACME LDTA.,Acme Ltda,0.8889,0.8889
+original sample,TXN-0176,INV-0107,fuzzy,PIX ACME  LTDA,Acme Ltda,1.0,1.0
+original sample,TXN-0177,INV-0007,fuzzy,PIX BETA COMERCIO LIMITADA.,Beta Comercio Limitada,1.0,1.0
+original sample,TXN-0178,INV-0014,exact,PIX GAMA SERVICOS,Gama Serviços,1.0,1.0
+original sample,TXN-0179,INV-0043,fuzzy,PIX acme  ltda.,Acme Ltda,1.0,1.0
+original sample,TXN-0180,INV-0167,fuzzy,PIX ZETA CONSULTORIA,Zeta Consultoria,1.0,1.0
+original sample,TXN-0181,INV-0062,fuzzy,PIX ZETA  CONSULT.,Zeta Consultoria,0.8571,0.8571
+original sample,TXN-0182,INV-0179,fuzzy,PIX BETA  COMERCIO  LIMITADA,Beta Comercio Limitada,1.0,1.0
+original sample,TXN-0184,INV-0090,fuzzy,PIX Zeta  oCnsultoria.,Zeta Consultoria,0.9375,0.9375
+original sample,TXN-0185,INV-0065,fuzzy,PIX Delta  Tech,Delta Tech,1.0,1.0
+original sample,TXN-0186,INV-0173,exact,PIX epsilon logistica,Epsilon Logística,1.0,1.0
+original sample,TXN-0187,INV-0163,fuzzy,PIX Epslion  Log..,Epsilon Logística,0.7143,0.7143
+original sample,TXN-0189,INV-0158,fuzzy,PIX Beta Comercio Limitada,Beta Comercio Limitada,1.0,1.0
+original sample,TXN-0190,INV-0111,fuzzy,PIX ZETA CONSULT.,Zeta Consultoria,0.8571,0.8571
+original sample,TXN-0191,INV-0083,fuzzy,PIX ACEM LTDA,Acme Ltda,0.8889,0.8889
+original sample,TXN-0192,INV-0101,exact,PIX Espilon Log.,Epsilon Logística,0.7143,1.0
+original sample,TXN-0193,INV-0152,exact,PIX Beta  Com.  Ltda.,Beta Comercio Limitada,0.7429,1.0
+original sample,TXN-0194,INV-0182,fuzzy,PIX EPSILON LOIGSTICA,Epsilon Logística,0.9412,0.9412
+original sample,TXN-0195,INV-0159,exact,PIX DELTA TECH,Delta Tech,1.0,1.0
+original sample,TXN-0196,INV-0022,fuzzy,PIX GAMA SERVIÇOS,Gama Serviços,1.0,1.0
+original sample,TXN-0199,INV-0174,exact,PIX deltat ech,Delta Tech,0.9,1.0
+original sample,TXN-0200,INV-0136,exact,PIX Acme Ldta,Acme Ltda,0.8889,1.0
+original sample,TXN-0203,INV-0001,fuzzy,PIX Acme Ltda,Acme Ltda,1.0,1.0
+original sample,TXN-0204,INV-0017,fuzzy,PIX EPSILON LOGISTICA,Epsilon Logística,1.0,1.0
+original sample,TXN-0205,INV-0123,fuzzy,PIX DELTA TCEH,Delta Tech,0.9,0.9
+original sample,TXN-0206,INV-0112,fuzzy,PIX Espilon  Logística,Epsilon Logística,0.9412,0.9412
+original sample,TXN-0207,INV-0069,fuzzy,PIX ACME  LTDA.,Acme Ltda,1.0,1.0
+original sample,TXN-0208,INV-0064,fuzzy,PIX Gama Servicos,Gama Serviços,1.0,1.0
+original sample,TXN-0209,INV-0125,fuzzy,PIX Beta  Cmo.  Limitada.,Beta Comercio Limitada,0.8718,0.8718
+original sample,TXN-0212,INV-0008,fuzzy,PIX EPSILON LOG.,Epsilon Logística,0.7857,0.7857
+original sample,TXN-0213,INV-0178,fuzzy,PIX epsilon logística.,Epsilon Logística,1.0,1.0
+seed 2024,TXN-0001,INV-0147,exact,PAGTO XIS  CALCADOS  LTDA,Xis Calçados Ltda,1.0,1.0
+seed 2024,TXN-0002,INV-0083,exact,PAGTO PSI  PAPEL.  M  E,Psi Papelaria ME,0.8276,1.0
+seed 2024,TXN-0003,INV-0068,exact,PIX Xis  Calç.  Ltda,Xis Calçados Ltda,0.8667,1.0
+seed 2024,TXN-0004,INV-0070,exact,TED theta  sistemas  eireli,Theta Sistemas Eireli,1.0,1.0
+seed 2024,TXN-0005,INV-0041,exact,PAGTO RHO AGROP..,Rho Agropecuária,0.72,1.0
+seed 2024,TXN-0007,INV-0161,exact,PIX Psi Papelaria ME,Psi Papelaria ME,1.0,1.0
+seed 2024,TXN-0008,INV-0155,exact,TED NU RTANSP. LTDA.,Nu Transportes Ltda,0.7879,1.0
+seed 2024,TXN-0009,INV-0177,fuzzy,PAGTO NU  TRANSPORTES  LTDA.,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0010,INV-0144,fuzzy,PAGTO RHO  AGROP.,Rho Agropecuária,0.72,0.72
+seed 2024,TXN-0011,INV-0112,fuzzy,TED NU TRANSPORTES LTDA.,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0013,INV-0052,exact,TRANSF Rho Agropecuaria,Rho Agropecuária,1.0,1.0
+seed 2024,TXN-0017,INV-0180,exact,PIX Psi Ppaelaria M E,Psi Papelaria ME,0.9091,1.0
+seed 2024,TXN-0018,INV-0179,fuzzy,PAGTO PSI PAPEL. M.E.,Psi Papelaria ME,0.8571,0.8571
+seed 2024,TXN-0019,INV-0200,fuzzy,PAGTO theta sistemas eireli.,Theta Sistemas Eireli,1.0,1.0
+seed 2024,TXN-0021,INV-0066,exact,TED Psi Papelaria ME,Psi Papelaria ME,1.0,1.0
+seed 2024,TXN-0022,INV-0119,exact,PIX IOTA ATAC. SA,Iota Atacadista S.A.,0.8,1.0
+seed 2024,TXN-0023,INV-0120,exact,PIX Nu  Transportes  Ltda,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0024,INV-0063,exact,TED xis calçados ltda,Xis Calçados Ltda,1.0,1.0
+seed 2024,TXN-0027,INV-0013,exact,PAGTO Psi Papelaria M.E.,Psi Papelaria ME,1.0,1.0
+seed 2024,TXN-0028,INV-0044,fuzzy,TRANSF rho agrop.,Rho Agropecuária,0.72,0.72
+seed 2024,TXN-0029,INV-0133,fuzzy,PAGTO Nu  Transp.  Ltda,Nu Transportes Ltda,0.8485,0.8485
+seed 2024,TXN-0030,INV-0199,exact,PAGTO Psi Papel. M.E.,Psi Papelaria ME,0.8571,1.0
+seed 2024,TXN-0032,INV-0020,fuzzy,TRANSF Psi Papelaria M E,Psi Papelaria ME,0.9697,0.9697
+seed 2024,TXN-0033,INV-0029,exact,TED Iota Atac. S/A,Iota Atacadista S.A.,0.7742,1.0
+seed 2024,TXN-0034,INV-0092,exact,PIX nu transportes ltda.,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0035,INV-0190,fuzzy,PAGTO Xis Calçados Ltda.,Xis Calçados Ltda,1.0,1.0
+seed 2024,TXN-0036,INV-0129,fuzzy,PAGTO Rho Agropecuaria,Rho Agropecuária,1.0,1.0
+seed 2024,TXN-0037,INV-0150,fuzzy,TED Nu Transportes Ltda,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0038,INV-0117,exact,TRANSF Theta iSst. Eireli,Theta Sistemas Eireli,0.8421,1.0
+seed 2024,TXN-0039,INV-0113,fuzzy,TED THETA SISTEMAS E.I.R.E.L.I,Theta Sistemas Eireli,1.0,1.0
+seed 2024,TXN-0040,INV-0048,fuzzy,TED XIS CALCADOS LTDA.,Xis Calçados Ltda,1.0,1.0
+seed 2024,TXN-0041,INV-0035,exact,TRANSF Iota Atacadista S.A.,Iota Atacadista S.A.,1.0,1.0
+seed 2024,TXN-0042,INV-0169,fuzzy,PIX Psi Papel. M E.,Psi Papelaria ME,0.8276,0.8276
+seed 2024,TXN-0044,INV-0167,fuzzy,PAGTO psi ppael. me,Psi Papelaria ME,0.7857,0.7857
+seed 2024,TXN-0045,INV-0055,fuzzy,TED NU  TRANSPORTES  LTDA,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0046,INV-0103,exact,TED psi papel. .me..,Psi Papelaria ME,0.8571,1.0
+seed 2024,TXN-0047,INV-0192,fuzzy,TED IOTA ATACADSITA SA,Iota Atacadista S.A.,0.9444,0.9444
+seed 2024,TXN-0048,INV-0104,fuzzy,TED Nu Tarnsportes Ltda,Nu Transportes Ltda,0.9474,0.9474
+seed 2024,TXN-0049,INV-0061,exact,PIX Theta  Sistemas  E.I.R.E.L.I,Theta Sistemas Eireli,1.0,1.0
+seed 2024,TXN-0050,INV-0067,exact,TED rho agropecuaria.,Rho Agropecuária,1.0,1.0
+seed 2024,TXN-0051,INV-0038,exact,TED Xis  Calc.  Ltda,Xis Calçados Ltda,0.8667,1.0
+seed 2024,TXN-0053,INV-0164,fuzzy,TRANSF Iota  Atacadista  SA.,Iota Atacadista S.A.,1.0,1.0
+seed 2024,TXN-0054,INV-0080,fuzzy,PIX iota atacaidsta s.a..,Iota Atacadista S.A.,0.9444,0.9444
+seed 2024,TXN-0055,INV-0106,fuzzy,PIX Iota Atac. S/A,Iota Atacadista S.A.,0.7742,0.7742
+seed 2024,TXN-0056,INV-0045,fuzzy,TRANSF N uTransportes Ltda.,Nu Transportes Ltda,0.9474,0.9474
+seed 2024,TXN-0057,INV-0027,fuzzy,PAGTO psi papel. m.e.,Psi Papelaria ME,0.8571,0.8571
+seed 2024,TXN-0058,INV-0085,fuzzy,TRANSF Xis Calç. Ltda,Xis Calçados Ltda,0.8667,0.8667
+seed 2024,TXN-0059,INV-0151,fuzzy,PAGTO RHO AGROPECUARIA.,Rho Agropecuária,1.0,1.0
+seed 2024,TXN-0060,INV-0102,exact,TED THETA SIST. EIRELI.,Theta Sistemas Eireli,0.8947,1.0
+seed 2024,TXN-0061,INV-0152,fuzzy,PIX N uTransportes Ltda,Nu Transportes Ltda,0.9474,0.9474
+seed 2024,TXN-0062,INV-0134,exact,TRANSF IOTA ATACADISTA SA,Iota Atacadista S.A.,1.0,1.0
+seed 2024,TXN-0063,INV-0077,exact,TED THETA SIST. ERIELI,Theta Sistemas Eireli,0.8421,1.0
+seed 2024,TXN-0064,INV-0017,fuzzy,PIX IOTA  ATAC.  S/A,Iota Atacadista S.A.,0.7742,0.7742
+seed 2024,TXN-0065,INV-0108,exact,PAGTO Nu Transp.L tda,Nu Transportes Ltda,0.7879,1.0
+seed 2024,TXN-0067,INV-0072,exact,PIX NU TRANSP. LTDA,Nu Transportes Ltda,0.8485,1.0
+seed 2024,TXN-0068,INV-0160,exact,TRANSF psi papelaria me,Psi Papelaria ME,1.0,1.0
+seed 2024,TXN-0069,INV-0188,fuzzy,PAGTO Iota Atacadista S.A..,Iota Atacadista S.A.,1.0,1.0
+seed 2024,TXN-0070,INV-0039,fuzzy,PIX Rho Agropecuária,Rho Agropecuária,1.0,1.0
+seed 2024,TXN-0071,INV-0037,fuzzy,PIX RHO ARGOP.,Rho Agropecuária,0.64,0.64
+seed 2024,TXN-0072,INV-0141,exact,PIX xis  calc.  ltda,Xis Calçados Ltda,0.8667,1.0
+seed 2024,TXN-0073,INV-0054,exact,PAGTO Iota Atac. S.A..,Iota Atacadista S.A.,0.8,1.0
+seed 2024,TXN-0074,INV-0036,exact,PIX XIS  CAÇLADOS  LTDA,Xis Calçados Ltda,0.9412,1.0
+seed 2024,TXN-0075,INV-0183,fuzzy,TRANSF NU TRANSPORTES LTDA,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0076,INV-0163,exact,TRANSF THETA SISTEMAS E.I.R.E.L.I,Theta Sistemas Eireli,1.0,1.0
+seed 2024,TXN-0077,INV-0114,fuzzy,TRANSF Iota Atac. SA,Iota Atacadista S.A.,0.8,0.8
+seed 2024,TXN-0078,INV-0032,fuzzy,PIX XIS CALÇADOS LTDA,Xis Calçados Ltda,1.0,1.0
+seed 2024,TXN-0080,INV-0073,fuzzy,PIX rho agrpoecuaria,Rho Agropecuária,0.9375,0.9375
+seed 2024,TXN-0081,INV-0089,fuzzy,PIX iota atac. s.a.,Iota Atacadista S.A.,0.8,0.8
+seed 2024,TXN-0082,INV-0031,fuzzy,PIX IOTA  ATAC.  S.A.,Iota Atacadista S.A.,0.8,0.8
+seed 2024,TXN-0083,INV-0162,exact,PIX psi  papelaria  m.e.,Psi Papelaria ME,1.0,1.0
+seed 2024,TXN-0084,INV-0153,exact,TED NU  TRANSP.  LTDA.,Nu Transportes Ltda,0.8485,1.0
+seed 2024,TXN-0085,INV-0097,fuzzy,PIX XIS CALÇADOSL TDA.,Xis Calçados Ltda,0.9412,0.9412
+seed 2024,TXN-0086,INV-0189,fuzzy,PIX iota atac. sa,Iota Atacadista S.A.,0.8,0.8
+seed 2024,TXN-0088,INV-0130,fuzzy,PAGTO Xis Calçados Ltda,Xis Calçados Ltda,1.0,1.0
+seed 2024,TXN-0089,INV-0154,fuzzy,PAGTO THETA SISTEMAS EIRELI,Theta Sistemas Eireli,1.0,1.0
+seed 2024,TXN-0090,INV-0127,fuzzy,TED iota  atac.  sa.,Iota Atacadista S.A.,0.8,0.8
+seed 2024,TXN-0091,INV-0158,fuzzy,PIX Psi Papel .M E,Psi Papelaria ME,0.8276,0.8276
+seed 2024,TXN-0092,INV-0084,fuzzy,PAGTO Rho Agrop..,Rho Agropecuária,0.72,0.72
+seed 2024,TXN-0094,INV-0059,fuzzy,TED Nu  Transportes  Ltda,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0096,INV-0195,fuzzy,PAGTO Iota Atacadist aS.A.,Iota Atacadista S.A.,0.9444,0.9444
+seed 2024,TXN-0097,INV-0065,exact,TRANSF THETA SIST.E IRELI,Theta Sistemas Eireli,0.8947,1.0
+seed 2024,TXN-0100,INV-0109,fuzzy,TRANSF XIS CACL. LTDA,Xis Calçados Ltda,0.8,0.8
+seed 2024,TXN-0101,INV-0115,fuzzy,PAGTO iota atacadista sa,Iota Atacadista S.A.,1.0,1.0
+seed 2024,TXN-0103,INV-0094,fuzzy,PIX Rho  Agrop..,Rho Agropecuária,0.72,0.72
+seed 2024,TXN-0104,INV-0018,fuzzy,PIX Rho gArop.,Rho Agropecuária,0.64,0.64
+seed 2024,TXN-0105,INV-0184,exact,PAGTO Rho  Agropecuráia,Rho Agropecuária,0.9375,1.0
+seed 2024,TXN-0106,INV-0128,exact,TED xis calç. ltda.,Xis Calçados Ltda,0.8667,1.0
+seed 2024,TXN-0107,INV-0124,exact,PAGTO nu transportes ltda,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0109,INV-0168,fuzzy,PAGTO THETA  SISTEMAS  EIRELI,Theta Sistemas Eireli,1.0,1.0
+seed 2024,TXN-0110,INV-0096,fuzzy,TED Psi Papel. ME,Psi Papelaria ME,0.8571,0.8571
+seed 2024,TXN-0111,INV-0023,fuzzy,PAGTO Theta  Sitsemas  Eireli,Theta Sistemas Eireli,0.9524,0.9524
+seed 2024,TXN-0112,INV-0064,exact,TED XIS CALÇ. LTDA,Xis Calçados Ltda,0.8667,1.0
+seed 2024,TXN-0114,INV-0091,exact,PIX THETA SISTEMAS E.I.R.E.L.I,Theta Sistemas Eireli,1.0,1.0
+seed 2024,TXN-0116,INV-0175,exact,TED THETA SISTEMAS EIRELI,Theta Sistemas Eireli,1.0,1.0
+seed 2024,TXN-0117,INV-0016,exact,TED Xis  Calc.  Ltda,Xis Calçados Ltda,0.8667,1.0
+seed 2024,TXN-0118,INV-0014,fuzzy,PIX xis calç. ltda,Xis Calçados Ltda,0.8667,0.8667
+seed 2024,TXN-0119,INV-0157,fuzzy,TRANSF NU TRANSPORTES LTDA.,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0120,INV-0003,exact,PIX nut ransp. ltda,Nu Transportes Ltda,0.7879,1.0
+seed 2024,TXN-0121,INV-0011,exact,PIX Iota Atacaditsa S.A.,Iota Atacadista S.A.,0.9444,1.0
+seed 2024,TXN-0122,INV-0040,fuzzy,PIX psi  papelaria  m  e,Psi Papelaria ME,0.9697,0.9697
+seed 2024,TXN-0123,INV-0197,exact,TED THETA  SISETMAS  EIRELI.,Theta Sistemas Eireli,0.9524,1.0
+seed 2024,TXN-0124,INV-0148,exact,TED Iota Atca. SA.,Iota Atacadista S.A.,0.8,1.0
+seed 2024,TXN-0127,INV-0030,exact,TRANSF NU TRANSPORETS LTDA,Nu Transportes Ltda,0.9474,1.0
+seed 2024,TXN-0128,INV-0187,fuzzy,TRANSF Xis  Clac.  Ltda.,Xis Calçados Ltda,0.8,0.8
+seed 2024,TXN-0129,INV-0060,exact,PAGTO NU  TRANSP.  LTDA,Nu Transportes Ltda,0.8485,1.0
+seed 2024,TXN-0130,INV-0062,exact,PIX Theta Sist. Eireli,Theta Sistemas Eireli,0.8947,1.0
+seed 2024,TXN-0131,INV-0170,exact,PAGTO Psi  Papelaira  ME.,Psi Papelaria ME,0.9375,1.0
+seed 2024,TXN-0132,INV-0058,exact,PAGTO XI SCALC. LTDA,Xis Calçados Ltda,0.8,1.0
+seed 2024,TXN-0133,INV-0026,exact,PIX XIS CALCADOS LTDA,Xis Calçados Ltda,1.0,1.0
+seed 2024,TXN-0134,INV-0078,exact,TRANSF Theta Sistemas Eireli,Theta Sistemas Eireli,1.0,1.0
+seed 2024,TXN-0135,INV-0074,fuzzy,TRANSF iota atcaadista s.a..,Iota Atacadista S.A.,0.9444,0.9444
+seed 2024,TXN-0136,INV-0001,exact,TRANSF Xis Calçados Ltda,Xis Calçados Ltda,1.0,1.0
+seed 2024,TXN-0137,INV-0101,exact,PIX Nu Transportes Ltda.,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0138,INV-0110,exact,TRANSF Psi  Papel.  M  E,Psi Papelaria ME,0.8276,1.0
+seed 2024,TXN-0140,INV-0166,fuzzy,PIX Xis Calç. Ltda,Xis Calçados Ltda,0.8667,0.8667
+seed 2024,TXN-0141,INV-0047,exact,PAGTO rho agrop.,Rho Agropecuária,0.72,1.0
+seed 2024,TXN-0142,INV-0022,fuzzy,TRANSF PS IPAPELARIA M E,Psi Papelaria ME,0.9091,0.9091
+seed 2024,TXN-0143,INV-0143,exact,PIX Psi  Papelaria  ME.,Psi Papelaria ME,1.0,1.0
+seed 2024,TXN-0147,INV-0015,fuzzy,PIX PSI PAPELARIA ME,Psi Papelaria ME,1.0,1.0
+seed 2024,TXN-0148,INV-0071,exact,TRANSF psi papel. me,Psi Papelaria ME,0.8571,1.0
+seed 2024,TXN-0149,INV-0118,fuzzy,PAGTO PSI PAPEL. M.E..,Psi Papelaria ME,0.8571,0.8571
+seed 2024,TXN-0150,INV-0191,exact,TRANSF PSI PAPELARI AM E.,Psi Papelaria ME,0.9091,1.0
+seed 2024,TXN-0151,INV-0182,fuzzy,PIX RHO  ARGOPECUÁRIA,Rho Agropecuária,0.9375,0.9375
+seed 2024,TXN-0153,INV-0186,exact,PAGTO Nu  Transp.  Ltda,Nu Transportes Ltda,0.8485,1.0
+seed 2024,TXN-0155,INV-0088,fuzzy,TRANSF Rho  Agropecuária,Rho Agropecuária,1.0,1.0
+seed 2024,TXN-0156,INV-0156,exact,PIX theta  sistemas  eireli,Theta Sistemas Eireli,1.0,1.0
+seed 2024,TXN-0157,INV-0004,exact,TRANSF Xis Calç. Ltda,Xis Calçados Ltda,0.8667,1.0
+seed 2024,TXN-0158,INV-0142,fuzzy,PIX Nu  Transportes  Ltda,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0159,INV-0132,exact,TRANSF XIS  CALC.  LTDA,Xis Calçados Ltda,0.8667,1.0
+seed 2024,TXN-0160,INV-0173,fuzzy,TRANSF XIS CALÇ. LTDA,Xis Calçados Ltda,0.8667,0.8667
+seed 2024,TXN-0161,INV-0107,fuzzy,TRANSF Rho Agropecuaria,Rho Agropecuária,1.0,1.0
+seed 2024,TXN-0162,INV-0131,exact,PIX xis calçadso ltda,Xis Calçados Ltda,0.9412,1.0
+seed 2024,TXN-0163,INV-0140,exact,TRANSF Nu Transp. Ltda,Nu Transportes Ltda,0.8485,1.0
+seed 2024,TXN-0164,INV-0069,exact,TRANSF Theta Sistemas IERELI.,Theta Sistemas Eireli,0.9524,1.0
+seed 2024,TXN-0165,INV-0138,fuzzy,PAGTO psi papelaria m e,Psi Papelaria ME,0.9697,0.9697
+seed 2024,TXN-0167,INV-0099,fuzzy,TRANSF Rho Agropecuaria,Rho Agropecuária,1.0,1.0
+seed 2024,TXN-0168,INV-0196,exact,PIX RHO AGROPECUARIA,Rho Agropecuária,1.0,1.0
+seed 2024,TXN-0169,INV-0145,fuzzy,PAGTO Psi Papel. ME.,Psi Papelaria ME,0.8571,0.8571
+seed 2024,TXN-0173,INV-0050,exact,PIX Rho Agropecuaria,Rho Agropecuária,1.0,1.0
+seed 2024,TXN-0174,INV-0093,fuzzy,PIX Psi  Papel.  M.E.,Psi Papelaria ME,0.8571,0.8571
+seed 2024,TXN-0175,INV-0136,fuzzy,TED Theta  Sistemas  EIRELI,Theta Sistemas Eireli,1.0,1.0
+seed 2024,TXN-0176,INV-0087,exact,TED NU TRANSP. LTDA,Nu Transportes Ltda,0.8485,1.0
+seed 2024,TXN-0177,INV-0121,fuzzy,TRANSF NU  TRANSPROTES  LTDA,Nu Transportes Ltda,0.9474,0.9474
+seed 2024,TXN-0178,INV-0176,fuzzy,TED ThetaS ist. EIRELI.,Theta Sistemas Eireli,0.8421,0.8421
+seed 2024,TXN-0179,INV-0033,exact,PIX Psi Paplearia ME.,Psi Papelaria ME,0.9375,1.0
+seed 2024,TXN-0180,INV-0051,exact,PAGTO NU TRANSP. LTDA,Nu Transportes Ltda,0.8485,1.0
+seed 2024,TXN-0181,INV-0111,fuzzy,TRANSF Nu  Transpotres  Ltda,Nu Transportes Ltda,0.9474,0.9474
+seed 2024,TXN-0182,INV-0079,exact,TRANSF PSI PAPELARIA ME.,Psi Papelaria ME,1.0,1.0
+seed 2024,TXN-0184,INV-0159,exact,TRANSF rho  agropceuária,Rho Agropecuária,0.9375,1.0
+seed 2024,TXN-0185,INV-0024,exact,PIX Xis Calçados Ltda,Xis Calçados Ltda,1.0,1.0
+seed 2024,TXN-0186,INV-0025,exact,PIX Psi Paple. ME,Psi Papelaria ME,0.7857,1.0
+seed 2024,TXN-0187,INV-0181,fuzzy,PIX PIS  PAPELARIA  ME,Psi Papelaria ME,0.9375,0.9375
+seed 2024,TXN-0189,INV-0081,exact,TRANSF XIS CALÇ. LTDA,Xis Calçados Ltda,0.8667,1.0
+seed 2024,TXN-0190,INV-0057,fuzzy,TED XisC alçados Ltda,Xis Calçados Ltda,0.9412,0.9412
+seed 2024,TXN-0191,INV-0122,fuzzy,TRANSF XIS  CAÇL.  LTDA.,Xis Calçados Ltda,0.8,0.8
+seed 2024,TXN-0192,INV-0012,fuzzy,TED THTEA SIST. EIRELI,Theta Sistemas Eireli,0.8421,0.8421
+seed 2024,TXN-0194,INV-0021,fuzzy,TRANSF xis calcados ltda,Xis Calçados Ltda,1.0,1.0
+seed 2024,TXN-0196,INV-0010,exact,TRANSF Xis Calçados Ltda,Xis Calçados Ltda,1.0,1.0
+seed 2024,TXN-0197,INV-0019,fuzzy,TRANSF Nu Transprotes Ltda,Nu Transportes Ltda,0.9474,0.9474
+seed 2024,TXN-0199,INV-0056,exact,TED RHO AGROPECUARIA,Rho Agropecuária,1.0,1.0
+seed 2024,TXN-0200,INV-0178,fuzzy,TRANSF Nu Transportes Ltda,Nu Transportes Ltda,1.0,1.0
+seed 2024,TXN-0201,INV-0100,exact,PAGTO nu transp. ltda.,Nu Transportes Ltda,0.8485,1.0
+seed 2024,TXN-0202,INV-0139,exact,TRANSF ROH  AGROPECUÁRIA,Rho Agropecuária,0.9375,1.0
+seed 2024,TXN-0204,INV-0095,fuzzy,TED iota atac. s/a,Iota Atacadista S.A.,0.7742,0.7742
+seed 2024,TXN-0205,INV-0105,exact,PIX Rho Agrop.,Rho Agropecuária,0.72,1.0
+seed 2024,TXN-0206,INV-0042,fuzzy,PAGTO RHO AGRPO.,Rho Agropecuária,0.64,0.64
+seed 2024,TXN-0208,INV-0171,fuzzy,PAGTO RHO  AGROPECUÁRIA,Rho Agropecuária,1.0,1.0
+seed 2024,TXN-0209,INV-0126,fuzzy,PIX NU RTANSP. LTDA,Nu Transportes Ltda,0.7879,0.7879
+seed 2024,TXN-0210,INV-0006,fuzzy,PIX XIS  CALÇ.  LTDA.,Xis Calçados Ltda,0.8667,0.8667
+seed 2024,TXN-0211,INV-0123,fuzzy,TED XIS CALC. LTDA,Xis Calçados Ltda,0.8667,0.8667
+seed 2024,TXN-0212,INV-0149,fuzzy,PIX Nu Transp. Ltda,Nu Transportes Ltda,0.8485,0.8485
+seed 2024,TXN-0213,INV-0165,fuzzy,PAGTO Psi Papel. ME,Psi Papelaria ME,0.8571,0.8571
+seed 2024,TXN-0214,INV-0053,fuzzy,PAGTO Psi  Paepl.  ME,Psi Papelaria ME,0.7857,0.7857
+seed 7,TXN-0001,INV-0181,exact,PAGTO PSI PAPELARIA M E,Psi Papelaria ME,0.9697,1.0
+seed 7,TXN-0002,INV-0184,exact,TED iota  atac . sa,Iota Atacadista S.A.,0.8,1.0
+seed 7,TXN-0003,INV-0162,exact,PAGTO NU TRANSP. LTDA,Nu Transportes Ltda,0.8485,1.0
+seed 7,TXN-0004,INV-0161,exact,TRANSF Psi Ppael. ME,Psi Papelaria ME,0.7857,1.0
+seed 7,TXN-0005,INV-0117,exact,PIX IOTA ATAACDISTA S.A.,Iota Atacadista S.A.,0.9444,1.0
+seed 7,TXN-0006,INV-0186,exact,PIX THETA  SISTEMAS  E.I.R.E.L.I,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0007,INV-0176,exact,TRANSF THETA SISTEMAS EIRELI,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0008,INV-0196,fuzzy,PIX Nu Transoprtes Ltda,Nu Transportes Ltda,0.9474,0.9474
+seed 7,TXN-0009,INV-0053,exact,PIX Theta Sitsemas EIRELI,Theta Sistemas Eireli,0.9524,1.0
+seed 7,TXN-0010,INV-0112,exact,TED PSI PAPEL. M.E.,Psi Papelaria ME,0.8571,1.0
+seed 7,TXN-0011,INV-0002,fuzzy,PIX IOTA ATACADISAT SA,Iota Atacadista S.A.,0.9444,0.9444
+seed 7,TXN-0012,INV-0016,exact,PIX RHO AGROP.,Rho Agropecuária,0.72,1.0
+seed 7,TXN-0013,INV-0009,exact,PAGTO rho agrop.,Rho Agropecuária,0.72,1.0
+seed 7,TXN-0014,INV-0010,fuzzy,TRANSF XIS CALCADOS LTDA,Xis Calçados Ltda,1.0,1.0
+seed 7,TXN-0015,INV-0057,exact,TRANSF xis calçados ltda.,Xis Calçados Ltda,1.0,1.0
+seed 7,TXN-0016,INV-0080,fuzzy,TRANSF IOTA ATACADISTA S.A..,Iota Atacadista S.A.,1.0,1.0
+seed 7,TXN-0017,INV-0148,exact,TRANSF Psi  Papelaria  M  E.,Psi Papelaria ME,0.9697,1.0
+seed 7,TXN-0018,INV-0021,exact,PIX Rho  Agropceuaria.,Rho Agropecuária,0.9375,1.0
+seed 7,TXN-0019,INV-0126,exact,TED Xis  Calcdaos  Ltda,Xis Calçados Ltda,0.9412,1.0
+seed 7,TXN-0022,INV-0027,exact,TRANSF Rho  Agrop.,Rho Agropecuária,0.72,1.0
+seed 7,TXN-0023,INV-0093,exact,TED NU TARNSP. LTDA.,Nu Transportes Ltda,0.7879,1.0
+seed 7,TXN-0024,INV-0088,exact,TRANSF nu transp. ltda,Nu Transportes Ltda,0.8485,1.0
+seed 7,TXN-0025,INV-0006,exact,PIX RHO AGROPECUARIA,Rho Agropecuária,1.0,1.0
+seed 7,TXN-0026,INV-0135,exact,PIX NuT ransp. Ltda.,Nu Transportes Ltda,0.7879,1.0
+seed 7,TXN-0029,INV-0084,exact,PAGTO Xi sCalcados Ltda,Xis Calçados Ltda,0.9412,1.0
+seed 7,TXN-0031,INV-0156,exact,PIX xis calc. ltda,Xis Calçados Ltda,0.8667,1.0
+seed 7,TXN-0032,INV-0058,exact,TRANSF Psi Papel. M.E..,Psi Papelaria ME,0.8571,1.0
+seed 7,TXN-0033,INV-0047,fuzzy,TRANSF THETA SIST. E.I.R.E.L.I,Theta Sistemas Eireli,0.8947,0.8947
+seed 7,TXN-0034,INV-0185,fuzzy,PAGTO xis calçados ltda,Xis Calçados Ltda,1.0,1.0
+seed 7,TXN-0035,INV-0173,fuzzy,PIX NU TRANSPORTES LTDA,Nu Transportes Ltda,1.0,1.0
+seed 7,TXN-0036,INV-0037,fuzzy,PIX THETA  SITSEMAS  E.I.R.E.L.I,Theta Sistemas Eireli,0.9524,0.9524
+seed 7,TXN-0037,INV-0094,exact,PAGTO Iota Atacadista SA,Iota Atacadista S.A.,1.0,1.0
+seed 7,TXN-0038,INV-0124,exact,TRANSF THETA SIST. E.I.R.E..LI,Theta Sistemas Eireli,0.8947,1.0
+seed 7,TXN-0039,INV-0051,exact,TED Nu  Transportse  Ltda,Nu Transportes Ltda,0.9474,1.0
+seed 7,TXN-0040,INV-0125,fuzzy,PAGTO NU TRANSP. LTDA,Nu Transportes Ltda,0.8485,0.8485
+seed 7,TXN-0042,INV-0011,exact,PAGTO Psi  Papel.  ME.,Psi Papelaria ME,0.8571,1.0
+seed 7,TXN-0043,INV-0151,fuzzy,TED Psi Papel. ME,Psi Papelaria ME,0.8571,0.8571
+seed 7,TXN-0044,INV-0098,exact,TED iota atac. sa,Iota Atacadista S.A.,0.8,1.0
+seed 7,TXN-0045,INV-0100,exact,PAGTO Theta  Sistemas  E.I.R.E.L.I.,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0046,INV-0127,fuzzy,PAGTO xis  calç.  ltda,Xis Calçados Ltda,0.8667,0.8667
+seed 7,TXN-0047,INV-0139,fuzzy,PAGTO Iota  Atac.  S.A.,Iota Atacadista S.A.,0.8,0.8
+seed 7,TXN-0048,INV-0110,exact,PIX XIS CALC. LTDA,Xis Calçados Ltda,0.8667,1.0
+seed 7,TXN-0049,INV-0032,fuzzy,PIX Iota Atacadista SA,Iota Atacadista S.A.,1.0,1.0
+seed 7,TXN-0050,INV-0067,fuzzy,PAGTO XIS CALCADOS LTDA,Xis Calçados Ltda,1.0,1.0
+seed 7,TXN-0051,INV-0114,fuzzy,TRANSF Rho Agrop.,Rho Agropecuária,0.72,0.72
+seed 7,TXN-0052,INV-0073,fuzzy,PIX Nu  Transporte s Ltda.,Nu Transportes Ltda,0.9744,0.9744
+seed 7,TXN-0053,INV-0020,exact,PAGTO NU  TRANSPORTES  LTDA,Nu Transportes Ltda,1.0,1.0
+seed 7,TXN-0055,INV-0042,fuzzy,TED Theta Sitsemas Eireli,Theta Sistemas Eireli,0.9524,0.9524
+seed 7,TXN-0056,INV-0163,exact,PIX ROH AGROP.,Rho Agropecuária,0.64,1.0
+seed 7,TXN-0058,INV-0017,exact,PIX THETA SIST. EIRELI,Theta Sistemas Eireli,0.8947,1.0
+seed 7,TXN-0060,INV-0101,fuzzy,TRANSF xis calc. ltda,Xis Calçados Ltda,0.8667,0.8667
+seed 7,TXN-0061,INV-0119,exact,TRANSF Nu Transportes Ltda.,Nu Transportes Ltda,1.0,1.0
+seed 7,TXN-0062,INV-0123,exact,TRANSF THETA  SIST.  EIRELI,Theta Sistemas Eireli,0.8947,1.0
+seed 7,TXN-0063,INV-0048,fuzzy,TED psi  papel.  m.e..,Psi Papelaria ME,0.8571,0.8571
+seed 7,TXN-0064,INV-0159,fuzzy,TED psi papealria me,Psi Papelaria ME,0.9375,0.9375
+seed 7,TXN-0065,INV-0116,fuzzy,PIX rho  agrop.,Rho Agropecuária,0.72,0.72
+seed 7,TXN-0067,INV-0130,exact,PIX Nu Transp. Ltda.,Nu Transportes Ltda,0.8485,1.0
+seed 7,TXN-0068,INV-0065,fuzzy,TED Theta Sistemas EIRELI,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0070,INV-0024,fuzzy,TRANSF Rho  Agropeucária,Rho Agropecuária,0.9375,0.9375
+seed 7,TXN-0071,INV-0070,fuzzy,PIX Rho Agropecáuria,Rho Agropecuária,0.9375,0.9375
+seed 7,TXN-0072,INV-0045,exact,TED XIS CAL.C LTDA,Xis Calçados Ltda,0.8667,1.0
+seed 7,TXN-0073,INV-0183,fuzzy,PAGTO Xis  Calc.  Ltda,Xis Calçados Ltda,0.8667,0.8667
+seed 7,TXN-0074,INV-0189,fuzzy,TED NU TRANSPORTES LTDA,Nu Transportes Ltda,1.0,1.0
+seed 7,TXN-0075,INV-0171,fuzzy,PAGTO Iota Atacadista S.A.,Iota Atacadista S.A.,1.0,1.0
+seed 7,TXN-0076,INV-0049,fuzzy,TED Theta Sist. iEreli,Theta Sistemas Eireli,0.8421,0.8421
+seed 7,TXN-0078,INV-0144,exact,PAGTO Theta Sist.E ireli,Theta Sistemas Eireli,0.8947,1.0
+seed 7,TXN-0079,INV-0172,exact,PAGTO THETA SIST. EIRELI,Theta Sistemas Eireli,0.8947,1.0
+seed 7,TXN-0080,INV-0102,fuzzy,TED Psi Papel. M.E.,Psi Papelaria ME,0.8571,0.8571
+seed 7,TXN-0082,INV-0031,exact,TED THETA  SISTEMAS  EIRELI,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0083,INV-0157,fuzzy,PIX xis  calç.  ltda,Xis Calçados Ltda,0.8667,0.8667
+seed 7,TXN-0084,INV-0043,exact,TED NU  RTANSPORTES  LTDA,Nu Transportes Ltda,0.9474,1.0
+seed 7,TXN-0085,INV-0142,fuzzy,TRANSF PSI PAPEL. ME.,Psi Papelaria ME,0.8571,0.8571
+seed 7,TXN-0086,INV-0140,fuzzy,TED iota atacadista s.a.,Iota Atacadista S.A.,1.0,1.0
+seed 7,TXN-0087,INV-0154,fuzzy,TRANSF Rho Agrop.,Rho Agropecuária,0.72,0.72
+seed 7,TXN-0089,INV-0038,exact,TED Xis  Calç.  Ltda,Xis Calçados Ltda,0.8667,1.0
+seed 7,TXN-0090,INV-0129,fuzzy,TED xis  calçaods  ltda.,Xis Calçados Ltda,0.9412,0.9412
+seed 7,TXN-0091,INV-0168,fuzzy,TRANSF Psi  Papel.  ME,Psi Papelaria ME,0.8571,0.8571
+seed 7,TXN-0092,INV-0180,exact,TED Xis  Calç.  Ltda,Xis Calçados Ltda,0.8667,1.0
+seed 7,TXN-0093,INV-0167,exact,PIX nu  transp.  ltda,Nu Transportes Ltda,0.8485,1.0
+seed 7,TXN-0095,INV-0028,exact,PIX PSI PAPELARIA ME.,Psi Papelaria ME,1.0,1.0
+seed 7,TXN-0096,INV-0122,fuzzy,PAGTO Rho Agropecuária,Rho Agropecuária,1.0,1.0
+seed 7,TXN-0098,INV-0141,fuzzy,TED IOTA  ATAC.  S/A,Iota Atacadista S.A.,0.7742,0.7742
+seed 7,TXN-0099,INV-0085,exact,TRANSF Xis aClçados Ltda,Xis Calçados Ltda,0.9412,1.0
+seed 7,TXN-0104,INV-0033,fuzzy,TRANSF NU  TRANSP.  LTDA,Nu Transportes Ltda,0.8485,0.8485
+seed 7,TXN-0105,INV-0068,fuzzy,PAGTO Nu Transp. Ltda,Nu Transportes Ltda,0.8485,0.8485
+seed 7,TXN-0106,INV-0044,exact,PIX Nu  Transp.  Ltda,Nu Transportes Ltda,0.8485,1.0
+seed 7,TXN-0108,INV-0083,fuzzy,PIX PSI  PAPEL.  ME.,Psi Papelaria ME,0.8571,0.8571
+seed 7,TXN-0109,INV-0001,fuzzy,TED xis calç. ltda,Xis Calçados Ltda,0.8667,0.8667
+seed 7,TXN-0110,INV-0187,fuzzy,PIX nu  transportes  ltda,Nu Transportes Ltda,1.0,1.0
+seed 7,TXN-0111,INV-0200,exact,PAGTO THETA  SISTEMAS  EIRELI.,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0114,INV-0146,fuzzy,PAGTO IOTA  ATAC.  S/A,Iota Atacadista S.A.,0.7742,0.7742
+seed 7,TXN-0115,INV-0170,exact,TED PSI PAPELARIAM E,Psi Papelaria ME,0.9375,1.0
+seed 7,TXN-0116,INV-0026,exact,PAGTO Iota Atacadista SA,Iota Atacadista S.A.,1.0,1.0
+seed 7,TXN-0117,INV-0143,exact,TED NU TRANSP. LTDA,Nu Transportes Ltda,0.8485,1.0
+seed 7,TXN-0118,INV-0104,exact,TRANSF XIS C ALC.  LTDA,Xis Calçados Ltda,0.8387,1.0
+seed 7,TXN-0119,INV-0105,fuzzy,PAGTO theta  sistemas  eireli,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0120,INV-0005,exact,TRANSF theta sist. eireli,Theta Sistemas Eireli,0.8947,1.0
+seed 7,TXN-0122,INV-0018,fuzzy,TRANSF psi papelaria me,Psi Papelaria ME,1.0,1.0
+seed 7,TXN-0123,INV-0133,fuzzy,TED RH O AGROP.,Rho Agropecuária,0.6923,0.6923
+seed 7,TXN-0124,INV-0164,exact,PAGTO Iota Atacadista S.A.,Iota Atacadista S.A.,1.0,1.0
+seed 7,TXN-0125,INV-0078,fuzzy,TED NU TRANSP. LTDA,Nu Transportes Ltda,0.8485,0.8485
+seed 7,TXN-0126,INV-0041,fuzzy,TED Roh  Agrop.,Rho Agropecuária,0.64,0.64
+seed 7,TXN-0127,INV-0015,fuzzy,TED Itoa Atac. S.A.,Iota Atacadista S.A.,0.7333,0.7333
+seed 7,TXN-0128,INV-0019,exact,PAGTO PSI PAPELARIA ME,Psi Papelaria ME,1.0,1.0
+seed 7,TXN-0129,INV-0036,exact,PIX Psi Papelaria ME,Psi Papelaria ME,1.0,1.0
+seed 7,TXN-0131,INV-0030,fuzzy,TED Iota Atacadist aS.A.,Iota Atacadista S.A.,0.9444,0.9444
+seed 7,TXN-0132,INV-0075,fuzzy,PIX Xis  Calçados  Ltda,Xis Calçados Ltda,1.0,1.0
+seed 7,TXN-0134,INV-0090,exact,TED XIS CALÇAODS LTDA,Xis Calçados Ltda,0.9412,1.0
+seed 7,TXN-0135,INV-0055,fuzzy,PIX theta sistemas eierli,Theta Sistemas Eireli,0.9524,0.9524
+seed 7,TXN-0136,INV-0081,exact,TRANSF PIS PAPEL. ME,Psi Papelaria ME,0.7857,1.0
+seed 7,TXN-0137,INV-0035,fuzzy,TRANSF Nu Transp. Ldta,Nu Transportes Ltda,0.7879,0.7879
+seed 7,TXN-0138,INV-0039,fuzzy,PIX Theta Sist. Eireli,Theta Sistemas Eireli,0.8947,0.8947
+seed 7,TXN-0139,INV-0134,fuzzy,PIX Xis  Calc.  Ltda,Xis Calçados Ltda,0.8667,0.8667
+seed 7,TXN-0140,INV-0191,exact,TED XIS CALÇ. LTDA.,Xis Calçados Ltda,0.8667,1.0
+seed 7,TXN-0141,INV-0089,fuzzy,TED nu transportes ltda,Nu Transportes Ltda,1.0,1.0
+seed 7,TXN-0142,INV-0131,fuzzy,PAGTO THETA  SISTEAMS  E.I.R.E.L.I.,Theta Sistemas Eireli,0.9524,0.9524
+seed 7,TXN-0143,INV-0193,exact,TRANSF NU  TRANSPORTES  LTDA,Nu Transportes Ltda,1.0,1.0
+seed 7,TXN-0144,INV-0138,exact,TED RHO AGROPECUÁRIA,Rho Agropecuária,1.0,1.0
+seed 7,TXN-0145,INV-0072,exact,PIX Psi Paplearia M E,Psi Papelaria ME,0.9091,1.0
+seed 7,TXN-0146,INV-0174,fuzzy,TRANSF NU TRANSP. LTDA,Nu Transportes Ltda,0.8485,0.8485
+seed 7,TXN-0147,INV-0145,fuzzy,TRANSF rho agrop.,Rho Agropecuária,0.72,0.72
+seed 7,TXN-0148,INV-0107,fuzzy,TED XIS CALCADOS LTDA.,Xis Calçados Ltda,1.0,1.0
+seed 7,TXN-0150,INV-0012,exact,PIX Iota Atac. S/A,Iota Atacadista S.A.,0.7742,1.0
+seed 7,TXN-0151,INV-0155,fuzzy,TRANSF NU TRANSP. LTDA,Nu Transportes Ltda,0.8485,0.8485
+seed 7,TXN-0152,INV-0166,exact,PIX Theta Sistemas Eireli,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0153,INV-0153,exact,TED THETA  SISTEMAS  EIRELI,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0154,INV-0179,fuzzy,PIX Psi Papelaria M.E.,Psi Papelaria ME,1.0,1.0
+seed 7,TXN-0155,INV-0195,fuzzy,PIX RhoA gropecuaria,Rho Agropecuária,0.9375,0.9375
+seed 7,TXN-0156,INV-0022,fuzzy,TRANSF PSI APPEL. ME,Psi Papelaria ME,0.7857,0.7857
+seed 7,TXN-0157,INV-0074,fuzzy,PAGTO PSI PAPEL. M E,Psi Papelaria ME,0.8276,0.8276
+seed 7,TXN-0158,INV-0007,exact,TED Iota Atacadista S.A.,Iota Atacadista S.A.,1.0,1.0
+seed 7,TXN-0159,INV-0152,fuzzy,PAGTO iota atacadista sa/.,Iota Atacadista S.A.,0.973,0.973
+seed 7,TXN-0160,INV-0120,fuzzy,TED rho  agropecuaria,Rho Agropecuária,1.0,1.0
+seed 7,TXN-0161,INV-0066,fuzzy,TRANSF THETA SIST. EIRELI,Theta Sistemas Eireli,0.8947,0.8947
+seed 7,TXN-0162,INV-0106,fuzzy,PAGTO Theta Sistemas Eireli.,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0163,INV-0076,fuzzy,PIX psi papel. m e,Psi Papelaria ME,0.8276,0.8276
+seed 7,TXN-0164,INV-0004,fuzzy,TRANSF XIS  CALCADOS  LTDA,Xis Calçados Ltda,1.0,1.0
+seed 7,TXN-0165,INV-0014,fuzzy,TED RHO AGROP..,Rho Agropecuária,0.72,0.72
+seed 7,TXN-0166,INV-0103,exact,PAGTO Psi Papel. ME,Psi Papelaria ME,0.8571,1.0
+seed 7,TXN-0168,INV-0029,exact,PIX theta sistemas eireli,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0169,INV-0096,exact,TRANSF THETA SIST .EIRELI,Theta Sistemas Eireli,0.8947,1.0
+seed 7,TXN-0170,INV-0175,exact,TED xis calcadosl tda,Xis Calçados Ltda,0.9412,1.0
+seed 7,TXN-0172,INV-0040,fuzzy,TED IOTA  ATAC.  S/A.,Iota Atacadista S.A.,0.7742,0.7742
+seed 7,TXN-0173,INV-0077,exact,TRANSF XIS  CALCADOS  LTDA.,Xis Calçados Ltda,1.0,1.0
+seed 7,TXN-0174,INV-0082,exact,PIX PSI  PAPEL.  M  E,Psi Papelaria ME,0.8276,1.0
+seed 7,TXN-0175,INV-0050,exact,TED RHO AGROPECUARIA.,Rho Agropecuária,1.0,1.0
+seed 7,TXN-0176,INV-0118,exact,PIX rho  agropeucária,Rho Agropecuária,0.9375,1.0
+seed 7,TXN-0177,INV-0060,fuzzy,TRANSF Iota Atac. SA,Iota Atacadista S.A.,0.8,0.8
+seed 7,TXN-0178,INV-0190,fuzzy,TRANSF Theta Sistemas Eireli,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0181,INV-0199,exact,TRANSF PSIP APEL. M E,Psi Papelaria ME,0.7586,1.0
+seed 7,TXN-0182,INV-0063,exact,PAGTO PSI  PAPEL.  M.E.,Psi Papelaria ME,0.8571,1.0
+seed 7,TXN-0183,INV-0013,fuzzy,TED NU TRNASP. LTDA,Nu Transportes Ltda,0.7879,0.7879
+seed 7,TXN-0186,INV-0064,fuzzy,PIX Psi Paepl. ME,Psi Papelaria ME,0.7857,0.7857
+seed 7,TXN-0188,INV-0061,fuzzy,PIX IOTA ATAC. S/A,Iota Atacadista S.A.,0.7742,0.7742
+seed 7,TXN-0190,INV-0034,exact,PAGTO Theta Sistemas E.I.R.E.L.I,Theta Sistemas Eireli,1.0,1.0
+seed 7,TXN-0191,INV-0158,fuzzy,PAGTO PSI  PAPEL.  ME.,Psi Papelaria ME,0.8571,0.8571
+seed 7,TXN-0192,INV-0192,fuzzy,TRANSF Nu Transp.L tda,Nu Transportes Ltda,0.7879,0.7879
+seed 7,TXN-0193,INV-0069,exact,TED Xi sCalc. Ltda,Xis Calçados Ltda,0.8,1.0
+seed 7,TXN-0194,INV-0149,fuzzy,PIX iota  atac.  s.a.,Iota Atacadista S.A.,0.8,0.8
+seed 7,TXN-0196,INV-0147,fuzzy,PAGTO Xis Caclados Ltda,Xis Calçados Ltda,0.9412,0.9412
+seed 7,TXN-0197,INV-0165,fuzzy,TRANSF tehta sist. eireli,Theta Sistemas Eireli,0.8421,0.8421
+seed 7,TXN-0198,INV-0128,fuzzy,TRANSF Nu Transp. Ltda,Nu Transportes Ltda,0.8485,0.8485
+seed 7,TXN-0199,INV-0137,exact,PAGTO iota atac. s.a.,Iota Atacadista S.A.,0.8,1.0
+seed 7,TXN-0200,INV-0091,fuzzy,TRANSF PSI PAPELARI AME.,Psi Papelaria ME,0.9375,0.9375
+seed 7,TXN-0201,INV-0052,fuzzy,TRANSF NU  TRANSP.  LTDA.,Nu Transportes Ltda,0.8485,0.8485
+seed 7,TXN-0202,INV-0169,exact,TRANSF NU TRANSPORTE SLTDA.,Nu Transportes Ltda,0.9474,1.0
+seed 7,TXN-0203,INV-0197,fuzzy,TED NU TRANSP. LTDA,Nu Transportes Ltda,0.8485,0.8485
+seed 7,TXN-0204,INV-0054,fuzzy,PAGTO Rho  Agropecuária,Rho Agropecuária,1.0,1.0
+seed 7,TXN-0205,INV-0056,fuzzy,PAGTO THETA SIST. E.I.R.E.L.I,Theta Sistemas Eireli,0.8947,0.8947
+seed 7,TXN-0206,INV-0087,fuzzy,PIX Ps iPapel. M E.,Psi Papelaria ME,0.7586,0.7586
+seed 7,TXN-0211,INV-0160,fuzzy,PIX XIS CALÇADOS LTDA,Xis Calçados Ltda,1.0,1.0
+seed 7,TXN-0212,INV-0194,fuzzy,TED RHO A GROP.,Rho Agropecuária,0.6923,0.6923
+seed 7,TXN-0213,INV-0132,fuzzy,PIX Xsi Calcados Ltda,Xis Calçados Ltda,0.9412,0.9412

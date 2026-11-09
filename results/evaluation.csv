@@ -1,0 +1,4 @@
+dataset,stage,matches,correct,false_matches,precision,coverage
+"Synthetic data, default parameters, author-designed decoys",exact,83,83,0,1.0,0.4798
+"Synthetic data, default parameters, author-designed decoys",fuzzy,90,90,0,1.0,0.5202
+"Synthetic data, default parameters, author-designed decoys",overall,173,173,0,1.0,1.0
