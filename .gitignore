@@ -1,0 +1,9 @@
+# Generated results, never committed
+output/
+
+# Secrets and local settings
+.env
+
+# Python cache files
+__pycache__/
+.pytest_cache/
